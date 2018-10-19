@@ -1,8 +1,8 @@
 {
   "name": "Homework 3: Tables and Charts",
-  "endpoint": "cal/data8/sp17/hw03",
+  "endpoint": "cal/data8/sp17/hw02",
   "src": [
-    "hw03.ipynb"
+    "hw02.ipynb"
   ],
   "tests": {
       "tests/q*.py": "ok_test"
