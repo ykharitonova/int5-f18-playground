@@ -1,8 +1,8 @@
 {
-  "name": "Homework 4",
+  "name": "Homework 3",
   "endpoint": "ucsd/dsc10/sp18/hw04",
   "src": [
-    "hw04.ipynb"
+    "hw03.ipynb"
   ],
   "tests": {
       "tests/q*.py": "ok_test"
