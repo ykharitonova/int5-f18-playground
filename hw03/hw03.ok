@@ -1,6 +1,6 @@
 {
   "name": "Homework 3",
-  "endpoint": "ucsd/dsc10/sp18/hw04",
+  "endpoint": "ucsb/int5/fa18/hw03",
   "src": [
     "hw03.ipynb"
   ],
