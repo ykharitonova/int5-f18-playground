@@ -6,11 +6,9 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> type(my_flower) == list
+          >>> type(completed_quotes) == list
           True
-          >>> type(my_flower[0]) == int
-          True
-          >>> type(my_flower[1]) == str and my_flower[1] != ''
+          >>> type(completed_quotes[0]) == str
           True
           """,
           'hidden': False,
