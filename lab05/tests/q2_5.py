@@ -6,15 +6,14 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> # One or more of the reaction results could be incorrect
-          >>> np.count_nonzero(ten_nachos_reactions.column('Reactions') == make_array('Meh.', 'Cheesy!', 'Wow!', 'Wow!', 'Cheesy!', 'Spicy!', 'Wow!', 'Meh.', 'Cheesy!', 'Wow!')) == 10
+          >>> num_q == 627
           True
           """,
           'hidden': False,
           'locked': False
         }
       ],
-      'scored': True,
+      'scored': False,
       'setup': '',
       'teardown': '',
       'type': 'doctest'

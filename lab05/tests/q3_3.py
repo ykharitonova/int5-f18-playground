@@ -1,13 +1,21 @@
 test = {
-  'name': '',
+  'name': 'Question',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> np.isclose(something_is_out, 1 - 0.7**4)
-          True
+          >>> convenience_sample.num_columns
+          11
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> convenience_sample.num_rows
+          44
           """,
           'hidden': False,
           'locked': False

@@ -6,15 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> len(convenience_stats)
-          2
-          """,
-          'hidden': False,
-          'locked': False
-        },
-        {
-          'code': r"""
-          >>> round(float(convenience_stats[0]), 2) == 20.36
+          >>> round(float(small_stats[0]), 2) == 26.32
           True
           """,
           'hidden': False,
@@ -22,7 +14,23 @@ test = {
         },
         {
           'code': r"""
-          >>> round(float(convenience_stats[1]), 2) == 2383533.82
+          >>> round(float(small_stats[1]), 2) == 4283910.89
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> round(float(large_stats[0]), 2) == 26.42
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> round(float(large_stats[1]), 2) == 4821322.5
           True
           """,
           'hidden': False,

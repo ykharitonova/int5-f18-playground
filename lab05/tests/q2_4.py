@@ -6,14 +6,14 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> 0.58 <= chance_of_all_different <= 0.68
+          >>> num_unique_words == 12943
           True
           """,
           'hidden': False,
           'locked': False
         }
       ],
-      'scored': True,
+      'scored': False,
       'setup': '',
       'teardown': '',
       'type': 'doctest'

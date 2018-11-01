@@ -6,8 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> # One or more of the reaction results could be incorrect
-          >>> np.count_nonzero(ten_nachos_reactions.column('Reactions') == make_array('Meh.', 'Cheesy!', 'Wow!', 'Wow!', 'Cheesy!', 'Spicy!', 'Wow!', 'Meh.', 'Cheesy!', 'Wow!')) == 10
+          >>> 0 <= num_wall <= 10
           True
           """,
           'hidden': False,
