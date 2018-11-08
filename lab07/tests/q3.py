@@ -1,18 +1,19 @@
 test = {
-  'name': 'Question3',
+  'name': '',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> import numpy as np
-          >>> isinstance(completed_quotes, list) and isinstance(completed_quotes[0], str)
+          >>> 0 <= expected_correct <= 1
           True
+          >>> int(expected_correct - 0.5)
+          0
           """,
           'hidden': False,
           'locked': False
-        },
+        }
       ],
       'scored': True,
       'setup': '',
