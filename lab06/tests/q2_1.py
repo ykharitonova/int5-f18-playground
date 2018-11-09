@@ -1,12 +1,12 @@
 test = {
-  'name': 'Question55',
+  'name': 'Question2.1',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> 0 < most_common_sixes < 6
+          >>> 0 < no_answer < 1
           True
           """,
           'hidden': False,

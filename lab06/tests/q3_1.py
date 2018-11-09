@@ -1,5 +1,5 @@
 test = {
-  'name': 'Question42',
+  'name': 'Question31',
   'points': 1,
   'suites': [
     {
@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> from datascience import *
-          >>> retweets_likes_age.num_rows
+          >>> retweets_likes.num_rows
           7
           """,
           'hidden': False,
@@ -16,8 +16,8 @@ test = {
           {
           'code': r"""
           >>> from datascience import *
-          >>> retweets_likes_age.num_columns
-          4
+          >>> retweets_likes.num_columns
+          3
           """,
           'hidden': False,
           'locked': False

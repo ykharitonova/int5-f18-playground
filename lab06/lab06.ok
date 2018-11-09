@@ -1,6 +1,6 @@
 {
-  "name": "Homework 4: Group, Join, Conditionals, Iteration, Randomness.",
-  "endpoint": "ucsb/int5/fa18/hw04",
+  "name": "Lab06: Group, Join, Conditionals, Iteration, Randomness.",
+  "endpoint": "ucsb/int5/fa18/lab06",
   "src": [
     "hw04.ipynb"
   ],

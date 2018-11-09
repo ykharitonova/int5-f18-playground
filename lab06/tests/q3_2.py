@@ -1,34 +1,27 @@
 test = {
-  'name': 'Question51',
+  'name': 'Question32',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> import numpy as np
-          >>> len(my_dice)
-          5
+          >>> from datascience import *
+          >>> retweets_likes_age.num_rows
+          7
           """,
           'hidden': False,
           'locked': False
-        },
-        {
+          },
+          {
           'code': r"""
-          >>> min(my_dice) >= 1
-          True
+          >>> from datascience import *
+          >>> retweets_likes_age.num_columns
+          4
           """,
           'hidden': False,
           'locked': False
-        },
-        {
-          'code': r"""
-          >>> max(my_dice) <= 6
-          True
-          """,
-          'hidden': False,
-          'locked': False
-        },
+          },
       ],
       'scored': True,
       'setup': '',

@@ -6,13 +6,28 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> from datascience import *
-          >>> len(popular_memes)
-          7
+          >>> min(sixes) >= 0
+          True
           """,
           'hidden': False,
           'locked': False
-          },
+        },
+        {
+          'code': r"""
+          >>> max(sixes) <= 6
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> len(sixes)
+          100000
+          """,
+          'hidden': False,
+          'locked': False
+        },
       ],
       'scored': True,
       'setup': '',

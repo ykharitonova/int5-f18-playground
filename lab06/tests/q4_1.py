@@ -6,22 +6,29 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> from datascience import *
-          >>> retweets_likes.num_rows
-          7
+          >>> import numpy as np
+          >>> len(my_dice)
+          5
           """,
           'hidden': False,
           'locked': False
-          },
-          {
+        },
+        {
           'code': r"""
-          >>> from datascience import *
-          >>> retweets_likes.num_columns
-          3
+          >>> min(my_dice) >= 1
+          True
           """,
           'hidden': False,
           'locked': False
-          },
+        },
+        {
+          'code': r"""
+          >>> max(my_dice) <= 6
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
       ],
       'scored': True,
       'setup': '',

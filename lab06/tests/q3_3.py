@@ -1,17 +1,18 @@
 test = {
-  'name': 'Question54',
+  'name': 'Question33',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> 0 < expected_sixes < 6
-          True
+          >>> from datascience import *
+          >>> len(popular_memes)
+          7
           """,
           'hidden': False,
           'locked': False
-        },
+          },
       ],
       'scored': True,
       'setup': '',
