@@ -2,7 +2,7 @@
   "name": "Homework 4",
   "endpoint": "ucsb/int5/fa18/hw04",
   "src": [
-    "hw06.ipynb"
+    "hw04.ipynb"
   ],
   "tests": {
       "tests/q*.py": "ok_test"
