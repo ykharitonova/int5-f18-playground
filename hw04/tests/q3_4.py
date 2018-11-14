@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> 0 < june_16_prediction < 1000
+          >>> 0 < dec_11_prediction < 1000
           True
           """,
           'hidden': False,
