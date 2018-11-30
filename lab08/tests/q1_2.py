@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> say_please == 'More please'
+          >>> grab_reaction == 'Yes please' or grab_reaction == 'I\'m okay'
           True
           """,
           'hidden': False,

@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> spicy_nacho == 'Spicy!'
+          >>> best_skittle == 'Yum' 
           True
           """,
           'hidden': False,

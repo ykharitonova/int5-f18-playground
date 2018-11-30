@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> 0 < answered < 1
+          >>> longer_than_fifteen == 114
           True
           """,
           'hidden': False,

@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> number_cheese == 3
+          >>> number_red <= 10 
           True
           """,
           'hidden': False,

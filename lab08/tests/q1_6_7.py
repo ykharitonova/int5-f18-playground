@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> ten_skittles_reactions.num_cols == 2
+          >>> (table_reaction == 'Yes!') or (table_reaction == 'Bleh.') or (table_reaction == 'Alright!')
           True
           """,
           'hidden': False,
@@ -14,7 +14,7 @@ test = {
         },
         {
           'code': r"""
-          >>> ten_skittles_reactions.num_rows == 10
+          >>> (result == 'Yes!') or (result == 'Bleh.') or (result == 'Alright!')
           True
           """,
           'hidden': False,

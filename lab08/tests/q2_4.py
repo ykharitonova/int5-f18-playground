@@ -1,17 +1,17 @@
 test = {
-  'name': '',
+  'name': 'Question2.1',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> 1 < number_wow_reactions < 10
+          >>> 0 < num_durant_first < 100
           True
           """,
           'hidden': False,
           'locked': False
-        }
+        },
       ],
       'scored': True,
       'setup': '',

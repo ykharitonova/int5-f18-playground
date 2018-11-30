@@ -1,17 +1,17 @@
 test = {
-  'name': '',
+  'name': 'Question2.2',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> 1 < number_wow_reactions < 10
+          >>> type(engineering) == numpy.ndarray
           True
           """,
           'hidden': False,
           'locked': False
-        }
+        },
       ],
       'scored': True,
       'setup': '',

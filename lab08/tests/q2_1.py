@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> 0 < no_answer < 1
+          >>> winner == 'Clay' or winner == 'Jimmy' or winner == 'neither'
           True
           """,
           'hidden': False,

@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> 0 < no_answer < 1
+          >>> 0 < chance_greater_15 < 1
           True
           """,
           'hidden': False,
